@@ -1,6 +1,5 @@
 // Nav Bar Effect
 let navLink = document.querySelectorAll(".nav-link");
-
 let makeReg = () => {
     Array.from(navLink).forEach((link) => {
         link.style.color = 'white';
