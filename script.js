@@ -47,5 +47,5 @@ setTimeout(() => {
             document.getElementById('demo2').innerHTML += item2;
         }, speed2 * index2);
     });
-}, 1500);
+}, 2000);
 
