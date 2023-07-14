@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Devansh Kansagra",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshkansagra/Portfolio-Website.git"
+  },
+  "author": "Devansh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanshkansagra/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/devanshkansagra/Portfolio-Website#readme",
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^3.0.1"
