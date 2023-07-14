@@ -29,7 +29,7 @@
   <div class="header">
     <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
       <div class="container-fluid navBox">
-        <a class="navbar-brand" href="#"><img src="/assets/letter-d.png" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="assets/letter-d.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
     <div class="Sectitle" id="nulsec"></div>
     <div class="devHomeContainer" id="devHomeContainer">
       <div class="imgSection">
-        <img src="/assets/IMG_7969.JPG" alt="">
+        <img src="assets/IMG_7969.JPG" alt="">
       </div>
       <div class="contentSection">
         <p class="nameTitle">
@@ -166,7 +166,7 @@
         style="color: #fafcfb;"></i>&nbsp;&nbsp;MY&nbsp;<span>SKILLS</span></div>
 
     <div class="skillContainer">
-      
+
     </div>
   </section>
   <!-- Skill Section ends -->
@@ -189,9 +189,9 @@
             src="Netflix-logo-red-black-png.png" alt=""></a>
         <!-- <a href="https://devanshkansagra.github.io/schoolplaza.github.io" class="project" id="project2"><img
             src="icons8-s-67.png" alt="" id="spimg"></a> -->
-        <a href="https://darshan25503.github.io/STR.github.io" class="project" id="project3"><img src="/assets/st6.jpg" alt=""
-            id="stimg"></a>
-        <a href="#" class="project" id="project4"><img src="/assets/letter-d.png" alt="" id="dimg"></a>
+        <a href="https://darshan25503.github.io/STR.github.io" class="project" id="project3"><img src="assets/st6.jpg"
+            alt="" id="stimg"></a>
+        <a href="#" class="project" id="project4"><img src="assets/letter-d.png" alt="" id="dimg"></a>
       </div>
     </div>
   </section>
@@ -203,29 +203,29 @@
         style="color: #fafcfb;"></i>&nbsp;&nbsp;CONTACT&nbsp;<span>ME</span></div>
     <div class="ContactContainer">
       <div class="devimg">
-        <img src="/assets/contact.png" alt="">
+        <img src="assets/contact.png" alt="">
       </div>
       <div class="message">
         <p class="touch">Get in touch with me</p>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label bg-dark" data-bs-theme="dark">Full Name*</label>
-          <input type="email" class="form-control" id="nameFormControlInput1" placeholder="Your Name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label bg-dark" data-bs-theme="dark">Email address*</label>
-          <input type="email" class="form-control" id="emailFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label bg-dark" data-bs-theme="dark">Phone Number*</label>
-          <input type="text" class="form-control" id="phoneFormControlInput1" placeholder="Phone Number">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label bg-dark" data-bs-theme="dark">Your Message*</label>
-          <textarea class="form-control" id="messageFormControlTextarea1" rows="8"></textarea>
-        </div>
-        <div class="downBtn1">
-          <a href="#">Send Message</a>
-        </div>
+        <form action="/" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label bg-dark" data-bs-theme="dark">Full Name*</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" name="fname">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label bg-dark" data-bs-theme="dark">Email address*</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="phNum" class="form-label bg-dark" data-bs-theme="dark">Phone Number*</label>
+            <input type="text" class="form-control" id="phNum" placeholder="Phone Number" name="phNum">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label bg-dark" data-bs-theme="dark">Your Message*</label>
+            <textarea class="form-control" id="message" rows="8" name="message"></textarea>
+          </div>
+          <input type="submit" class="btn btn-success" value="Submit">
+        </form>
       </div>
     </div>
   </section>
